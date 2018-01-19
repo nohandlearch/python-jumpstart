@@ -19,7 +19,7 @@ while guess != number:
         print('Sorry, your guess of {} was too low.'.format(guess))
     elif guess > number:
         print('Sorry, your guess of {} was too high.'.format(guess))
-    
+
     guess_text = input('Guess again: ')
     guess = int(guess_text)
 
